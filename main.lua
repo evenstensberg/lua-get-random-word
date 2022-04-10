@@ -16,7 +16,7 @@ end
 math.randomseed(os.time())
 
 --[[ Random word idx ]]
-local rand_idx = math.random(1, n_elements - 1)
+local rand_idx = math.random(1, n_elements)
 
 
 print("Selected word: ", words[rand_idx])
